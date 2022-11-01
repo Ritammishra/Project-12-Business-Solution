@@ -1,0 +1,392 @@
+@media screen and (max-width:480px){
+   header{
+    width: 80vh;
+    background: #636C79;
+    height: 120vh;
+   }
+   header .nav-top .logo img{
+    width: 70px;
+   }
+   header nav .icon{
+    display: inline;
+    position: relative;
+    right: 160px;
+    color: #fff;
+   }
+   header nav a{
+    display: none;
+   }
+   header nav button{
+    display: none;
+   }
+   header .main-section{
+    display: flex;
+    flex-direction: column;
+   }
+   .main-section img{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+   }
+   .main-section .text{
+    text-align: center;
+   }
+   .main-section .text h2{
+    font-size: 16px;
+   }
+   .text p{
+    font-size: 10px;
+   }
+   .text .input{
+    position: relative;
+    left: 30px;
+    width: 250px;
+   }
+   .text .input input{
+    width: 100px;
+   }
+   .input button{
+    width: 80px;
+    margin-bottom: 90px;
+   }
+   /* Service */
+
+   .service-1{
+    width: 80vh;
+   }
+   .service-1 .text h2 {
+    font-size: 16px;
+  }
+  .service-1 .text .number{
+    width: 250px;
+  }
+  .image-1 img{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Hero-section */
+  .Hero-section{
+    width: 55vh;
+    margin-left: 50px;
+  }
+  .Hero-section .heading{
+    font-size: 16px;
+  }
+  .Hero-section .hero-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Hero-section .hero-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .Hero-section .hero-3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Team-section */
+  .Team-section{
+    margin-left: 50px;
+  }
+  .Team-section .heading{
+    display: flex;
+    flex-direction: column;
+  }
+  .Team-section .teams{
+    display: flex;
+    flex-direction: column;
+  }
+  .Team-section .teams .team{
+    margin: 16px 0px ;
+  }
+
+  /* Footer-section */
+  .footer{
+    height: 190vh;
+  }
+  .footer-top .social{
+    margin-left: 16px;
+  }
+  .footer-top .social i{
+    margin-right: 5px;
+  }
+  .footer .footer-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (min-width:481px) and (max-width:600px){
+  header{
+    height: 150vh;
+    width: 128vh;
+  }
+  header .nav-top .logo img{
+    width: 80px;
+  }
+  header nav a, .btn{
+    display: none;
+  } 
+  header nav .icon{
+    display: inline;
+    position: relative;
+    right: 60px;
+    color: #fff;
+    font-size: 20px;
+  }
+  header .main-section{
+    display: flex;
+    flex-direction: column;
+   }
+   .main-section img{
+    width: 300px;
+    height: 300px;
+    margin-left: 90px;
+   }
+   .main-section .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   /* secvice-section */
+   .service-1 .text .number{
+    width: 450px;
+  }
+  .image-1 img{
+    width: 450px;
+  }
+  /* Hero-section */
+  .Hero-section .hero-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Hero-section .hero-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .Hero-section .hero-3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Team-section */
+
+  .Team-section .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Team-section .teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Team-section .teams .team{
+    margin: 16px 0px ;
+  }
+  .Team-section button{
+    position: relative;
+    right: 350px;
+  }
+
+  /* Footer-section */
+  .footer{
+    height: 200vh;
+    width: 128vh;
+  }
+  .footer-top .social{
+    margin-left: 16px;
+  }
+  .footer-top .social i{
+    margin-right: 5px;
+  }
+  .footer .footer-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+  header{
+    height: 120vh;
+    width: 138vh;
+  }
+  header .nav-top .logo img{
+    width: 70px;
+    margin-bottom: 14px;
+  }
+  header nav{
+    margin-right: 260px;
+    position: relative;
+    right: 390px;
+    width: 550px;
+  }
+  header nav a{
+  width: 80px;
+  font-size: 12px;  
+  margin-right: 12px;
+  }
+  .main-section img{
+    width: 300px;
+    height: 250px;
+    margin-top: 60px;
+    margin-right: 16px;
+  }
+  .main-section .text h2{
+    font-size: 20px;
+  }
+  .main-section .text p{
+    font-size: 10px;
+  }
+  .text .input{
+    width: 250px;
+  }
+  .text .input input{
+    width: 100px;
+  }
+  .input button{
+    width: 90px;
+  }
+
+  /* Service */
+  
+  .service-1 .text h2{
+    font-size: 22px;
+  }
+  .service-1 .text .number{
+    width: 400px;
+  }
+  .image-1 img{
+    width: 400px;
+  }
+
+  /* Hero-section */
+  .Hero-section .hero-1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Hero-section .hero-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .Hero-section .hero-3{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Team-section */
+  .Team-section .teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Team-section .teams .team{
+    margin: 16px 0px ;
+  }
+  .Team-section button{
+    position: relative;
+    right: 300px;
+  }
+
+   /* Footer-section */
+   .footer{
+    height: 90vh;
+    width: 138vh;
+  }
+  hr{
+    margin: 30px 40px;
+  }
+  .footer .footer-bottom{
+    width: 650px;
+    position: relative;
+    right: 74px;
+  }
+  .footer h3{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+  /* Header */
+  header{
+    height: 120vh;
+    width: 202vh;
+  }
+  header .nav-top .logo img{
+    width: 100px;
+    margin-bottom: 14px;
+  }
+  header nav{
+    margin-right: 260px;
+    position: relative;
+    right: 190px;
+    width: 550px;
+  }
+  header nav a{
+  width: 100px;
+  font-size: 14px;  
+  margin-right: 12px;
+  }
+  .main-section img{
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 16px;
+  }
+  .main-section .text h2{
+    font-size: 30px;
+  }
+  .main-section .text p{
+    font-size: 13px;
+  }
+  .text .input{
+    width: 350px;
+  }
+  .text .input input{
+    width: 190px;
+  }
+  .input button{
+    width: 100px;
+  }
+
+    /* Service */
+  
+    .service-1 .text h2{
+      font-size: 40px;
+    }
+    .service-1 .text .number{
+      width: 600px;
+    }
+    .image-1 img{
+      width: 600px;
+    }
+ /* Team-section */
+ .Team-section .teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: 450px;
+}
+.Team-section img {
+  width: 300px;
+}
+.Team-section .teams .team{
+  margin: 0px 10px;
+}
+.Team-section button{
+  position: relative;
+  right: 150px;
+}
+/* Footer-section */
+.footer{
+  height: 70vh;
+  width: 202vh;
+}
+}
