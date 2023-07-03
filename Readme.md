@@ -11,7 +11,7 @@
 ![image](./Thumbnails/Thumbnail-4.png)
 ![image](./Thumbnails/Thumbnail-5.png)
 ![image](./Thumbnails/Thumbnail-6.png)
-
+[Live Preview](https://project-12-business-solutions.netlify.app/)
 <hr>
 
 ## Features
